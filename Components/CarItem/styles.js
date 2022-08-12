@@ -24,6 +24,9 @@ const styles = StyleSheet.create({
     fontSize: 16,
     color: '#5c5e62',
   },
+  subtitleCTA: {
+    textDecorationLine: 'underline',
+  },
   btnContainer: {
     position: 'absolute',
     bottom: 50,

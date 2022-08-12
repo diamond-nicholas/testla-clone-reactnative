@@ -11,7 +11,12 @@ import CarItem from './components/CarItem/Index';
 export default function App() {
   return (
     <View style={styles.container}>
-      <CarItem />
+      <CarItem
+        name={'Model S'}
+        tagline={'starting from $40000'}
+        taglineCTA={'Touchless Delivery'}
+        bgimage={require('./assets/images/ModelS.jpeg')}
+      />
       <StatusBar style='auto' />
     </View>
   );
